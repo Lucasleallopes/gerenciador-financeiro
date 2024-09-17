@@ -1,0 +1,14 @@
+.container-home {
+    padding: 40px;
+  }
+  
+  h1 {
+    color: #007bff;
+    font-size: 36px;
+  }
+  
+  .container-home p {
+    font-size: 18px;
+    color: #555;
+  }
+  
