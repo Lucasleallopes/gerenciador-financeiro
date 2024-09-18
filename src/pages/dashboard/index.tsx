@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { db, auth } from '../../service/firebase'; // Importar Firestore e Auth
+import { db, auth } from '../../service/firebase';
 import { collection, query, where, getDocs } from 'firebase/firestore';
-import { Bar } from 'react-chartjs-2'; // Importando o gráfico
+import { Bar } from 'react-chartjs-2';
 import { Chart as ChartJS,CategoryScale,LinearScale,BarElement,Title,Tooltip,Legend,} from 'chart.js';
 
 import Receitas from '../../components/Receitas';

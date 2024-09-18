@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { db, auth } from '../service/firebase'; // Importar Firestore e Auth
+import { db, auth } from '../service/firebase';
 import { collection, addDoc, query, where, getDocs, deleteDoc, doc, updateDoc } from 'firebase/firestore';
 
 interface ReceitasProps {

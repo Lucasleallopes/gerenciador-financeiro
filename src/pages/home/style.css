@@ -1,14 +1,38 @@
 .container-home {
-    padding: 40px;
-  }
-  
-  h1 {
-    color: #007bff;
-    font-size: 36px;
-  }
-  
-  .container-home p {
-    font-size: 18px;
-    color: #555;
-  }
-  
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #0A4A76; /* Cor semelhante ao azul escuro */
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.container-home p {
+  font-size: 20px;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 8px; /* Pouco espaçamento entre os parágrafos */
+}
+
+.more-info-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.more-info-btn:hover {
+  background-color: #0056b3;
+}
